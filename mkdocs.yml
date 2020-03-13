@@ -1,0 +1,36 @@
+site_name: SpaceONE Developer Guides
+site_url: https://developer.spaceone.dev
+site_description: SpaceONE Developer Guides
+site_author: SpaceONE Team
+
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+nav:
+    - Introduction: introduction.md
+    - Achitecture design: 
+        - MSA Framework: architecture/msa-framework.md
+        - Console Framework: architecture/console-framework.md
+        - Plugins: architecture/plugins.md
+    - Core development:
+        - Getting Started: core/getting-started.md
+        - Coding Style: core/coding-style.md
+    - Console development:
+        - Getting Started: console/getting-started.md
+        - Coding Style: console/coding-style.md
+    - Plugins development:
+        - Getting Started: plugins/getting-started.md
+    - API References: api.md
+
+markdown_extensions:
+    - toc:
+        permalink: "#"
+    - admonition
+    - def_list
+
+plugins:
+    - search
