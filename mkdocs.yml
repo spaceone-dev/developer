@@ -4,18 +4,21 @@ site_description: SpaceONE Developer Guides
 site_author: SpaceONE Team
 
 theme:
-    name: readthedocs
+    name: material
     highlightjs: true
     hljs_languages:
         - yaml
         - django
-
+    features:
+      - instant
 nav:
     - Introduction: introduction.md
     - Achitecture design: 
         - MSA Framework: architecture/msa-framework.md
         - Console Framework: architecture/console-framework.md
         - Plugins: architecture/plugins.md
+    - API developement:
+        - Getting Started: api/getting-started.md
     - Core development:
         - Getting Started: core/getting-started.md
         - Coding Style: core/coding-style.md
@@ -24,6 +27,7 @@ nav:
         - Coding Style: console/coding-style.md
     - Plugins development:
         - Getting Started: plugins/getting-started.md
+        - Coding Style: plugins/coding-style.md
     - API References: api.md
 
 markdown_extensions:
