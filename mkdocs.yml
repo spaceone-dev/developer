@@ -1,5 +1,5 @@
 site_name: SpaceONE Developer Guides
-site_url: https://developer.spaceone.dev
+site_url: https://spaceone-dev.github.io
 site_description: SpaceONE Developer Guides
 site_author: SpaceONE Team
 
@@ -17,6 +17,9 @@ nav:
         - MSA Framework: architecture/msa-framework.md
         - Console Framework: architecture/console-framework.md
         - Plugins: architecture/plugins.md
+    - Installation:
+        - Docker Compose: installation/docker-compose.md
+        - Helm Chart: installation/helm.md
     - API developement:
         - Getting Started: api/getting-started.md
     - Core development:
